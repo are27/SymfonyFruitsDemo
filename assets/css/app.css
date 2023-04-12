@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(240, 245, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/wp5257889.jpg');
+}
+#top-bar
+{
+    background-color: rgb(68, 155, 212);
+    color: aliceblue;
+    padding:0.5em;
+    margin: -1em -0.5em 1em -0.5em;
+    border-bottom: 4px solid white;
+}
+.tableData
+{
+    padding-top: 2em;
+}
+.tableData th
+{   text-align: left;
+
+}
+.search{
+    float:left;
+}
+.favs
+{float:right;
+}
+
+.ui-header
+{
+    margin: 1em;
+}
+
+.fruit-list
+{   clear:both;
+    margin: 1em;
+}
+
+.hidden{
+    display:none;
+}
+
+.center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination button {
+    margin: 0 0.5rem;
+  }
+  
+  .pagination button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .search input {
+    margin-left: 0.5rem;
+    background-color: #e2f9ff;
+    border:2px solid rgb(68, 155, 212);
+  }
+
+.fancy-button {
+  background-color: #63c3e0;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #565757;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 80px;
+}
+
+.favs .fancy-button {
+  width: 120px;
+}
+
+.fancy-button:hover {
+  background-color: #f7fafa;
+}
+
+.fancy-button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}

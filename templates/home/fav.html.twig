@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Favourites{% endblock %}
+
+{% block body %}
+
+<div ref="fruits" data-fruits='[{{fruits|join(',')|raw}}]'>
+
+</div>
+
+<div id="app">
+    <app></app>
+</div>
+{% endblock %}

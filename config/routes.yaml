@@ -1,0 +1,16 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+home:
+    path: /
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\HomeController::index
+favorites:
+    path: /favorites
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\HomeController::favorites
